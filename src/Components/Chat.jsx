@@ -109,12 +109,12 @@ const Chat = () => {
             }
           }}
           placeholder="Ask any question about the uploaded document."
-          className="lg:w-[800px]    md:w-[600px] md:py-3 md:text-lg border sm:placeholder:text-sm placeholder:text-[11px] bg-white text-violet-900 sm:w-[500px] px-4 py-2 rounded-lg outline-0 text-base w-[250px] "
+          className="lg:w-[800px]    md:w-[600px] md:py-3 md:text-lg border sm:placeholder:text-sm placeholder:text-[11px] bg-white text-violet-900 sm:w-[500px] px-4 py-2 rounded-lg outline-0 text-base w-[200px] "
         />
         <button
           onClick={handleSendMessages}
           type="submit"
-          className=" lg:px-13 md:py-3 md:px-11 bg-violet-900 text-white flex-center sm:px-9 py-2 rounded-lg cursor-pointer px-5"
+          className=" lg:px-13 md:py-3 md:px-11 bg-violet-900 text-white flex-center sm:px-9 py-2 rounded-lg cursor-pointer px-3"
         >
           Send
         </button>
