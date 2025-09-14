@@ -61,7 +61,7 @@ const Chat = () => {
     <section className="flexColSec mb-5">
       <h2 className="md:text-3xl sm:text-2xl text-xl mb-2 mt-4.5">Chat</h2>
       {messages.length > 0 && (
-        <div className="chat  lg:w-[950px] md:w-[730px] sm:w-[620px] w-[350px] mb-3 bg-gray-100 rounded-xl px-6 py-3 text-black flex flex-col flex-wrap gap-3.5">
+        <div className="chat  lg:w-[950px] md:w-[730px] sm:w-[620px] w-[280px] mb-3 bg-gray-100 rounded-xl px-6 py-3 text-black flex flex-col flex-wrap gap-3.5">
           {messages?.map((msg, i) => {
             if (msg.role === "user") {
               return (
