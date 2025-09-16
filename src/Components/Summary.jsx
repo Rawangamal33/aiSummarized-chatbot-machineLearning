@@ -6,7 +6,7 @@ import pdfImg from "../assets/pdf-icon-red-and-white-color-for-free-png.webp";
 
 const Summary = () => {
   const ai = new GoogleGenAI({
-    apiKey: "AIzaSyCPhrwWnaRkCtX6XAaM3oZ5KIOuL3CnH8M",
+    apiKey: import.meta.env.VITE_REACT_APP_API_KEY,
   });
   const { passedFile } = useContext(FileContext);
   const [SummerizedData, setSummarizedData] = useState("");

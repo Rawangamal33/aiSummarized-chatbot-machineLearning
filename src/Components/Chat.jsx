@@ -5,7 +5,7 @@ import { ThreeDot } from "react-loading-indicators";
 
 const Chat = () => {
   const ai = new GoogleGenAI({
-    apiKey: "AIzaSyCPhrwWnaRkCtX6XAaM3oZ5KIOuL3CnH8M",
+    apiKey: import.meta.env.VITE_REACT_APP_API_KEY,
   });
   const { passedFile } = useContext(FileContext);
   const [messages, setMessages] = useState([]);
